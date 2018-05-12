@@ -1,0 +1,49 @@
+_repo: The-Wit-and-Humor-of-America-Volume-IV.--of-X.-_18776
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  editor:
+    agent_name: Wilder, Marshall Pinckney
+    alias: Wilder, Marshall P.
+    birthdate: 1859
+    deathdate: 1915
+    gutenberg_agent_id: '8044'
+    url: http://www.gutenberg.org/2009/agents/8044
+description: ''
+gutenberg_bookshelf:
+- Short Stories
+- Humor
+gutenberg_issued: '2006-07-07'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '18776'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PN'
+- !lcsh 'American wit and humor'
+- !lcsh 'American literature -- Humor'
+tableOfContents: An April Aria, by Munkittrick -- "As Good as a Play", by Scudder
+  -- The Autocrat of the Breakfast Table, by Holmes -- The Briefless Barrister, by
+  Saxe -- A Cable-Car Preacher, by Foss -- Cæsar's Quiet Lunch with Cicero, by Fields
+  -- Cheer for the Consumer, by Waterman -- Comin' Home Thanksgivin', by Naylor --
+  A Complaint of Friends, by Hamilton -- The Coupon Bonds, by Trowbridge -- Crankidoxology,
+  by Irwin -- Desolation, by Masson -- A Desperate Race, by Kelley -- De Stove Pipe
+  Hole, by Drummond -- The Economical Pair, by Wells -- The Family Horse, by Cozzens
+  -- Girl from Mercury, by Vielé -- The Grand Opera, by Baxter -- The Greco-Trojan
+  Game, by Johnson -- How to Know the Wild Animals, by Wells -- How We Bought a Sewin'
+  Machine and Organ, by Allen -- I Remember, I Remember, by Cary -- In a State of
+  Sin, by Wister -- The Loafer and the Squire, by Crayon -- The Love Sonnets of a
+  Husband, by Smiley -- Meditations of a Mariner, by Irwin -- A Modern Advantage,
+  by Becker -- A Modern Eclogue, by Carman -- My Honey, My Love, by Harris -- Ponchus
+  Pilut, by Riley -- Praise-God Barebones, by Cortissoz -- The Raggedy Man, by Riley
+  -- The Shooting-Match, by Longstreet -- Sonnet of the Lovable Lass and the Plethoric
+  Dad, by Foley -- Story of the Two Friars, by Field -- The Two Husbands, by Wells
+  -- The Two Pedestrians, by Wells -- The Two Prisoners, by Wells -- Victory, by Masson
+  -- The Wolf at Susan's Door, by Warner.
+title: The Wit and Humor of America, Volume IV. (of X.)
+url: http://www.gutenberg.org/ebooks/18776
