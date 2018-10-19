@@ -1,246 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/18776">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325752</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T06:59:35.503656</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15240</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:14:07.753233</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne4c724993e3449598af4fd6d3d28533a">
+          <rdf:Description rdf:nodeID="N6d30a4f0e112483997ffcf23e0087324">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd5d642626f2e4e41b481c1f115125c32">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>American wit and humor</rdf:value>
+      <rdf:Description rdf:nodeID="Ncc31409dd1bf47d3b053c517ab01d047">
+        <rdf:value>PN</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-8.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf90284e29d3b48c2a428b22e1e160a5e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356812</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfdb01f2f0adc41569c419ecaeaed960a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356816</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-07</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.qioo">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd28e74fb8db642c0b3afb7d5a76fbdab">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T22:16:29.012665</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204461</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.kindle.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9f18f1bc74c44ad5b1b51043247f08ee">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T06:59:33.784383</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267960</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.txt.utf-8">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T06:59:30.012171</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na7ae9157df7a425aaddce3cf878e5861">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356799</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</pgterms:downloads>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N8bf60d9bb49244448e902afffd76bdd4">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/8044">
-        <pgterms:alias>Wilder, Marshall P.</pgterms:alias>
-        <pgterms:name>Wilder, Marshall Pinckney</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859</pgterms:birthdate>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T06:59:32.343823</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:57:53.145062</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N088235caece64fd49d2033b899efb92e">
+          <rdf:Description rdf:nodeID="N15594571f09a416397d34cd079f1f628">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233799</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ncaafd8b47c6741879d8e0d2e61a3cf1a">
+        <rdf:value>American literature -- Humor</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:title>The Wit and Humor of America, Volume IV. (of X.)</dcterms:title>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-h.zip">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2f545587f0ed4db7a09c13e06a4557e9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218757</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0ad136c69ff043f594d0c8036f8364be">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237880</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-8.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nacc490a9cf8b438e99d3381f7229dc46">
+          <rdf:Description rdf:nodeID="Na4ca06c339744492b0c6db7ee02caef6">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1dbc06b40e3741bfb99fd146c230e7e2">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142476</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:18</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N693d577e56a64047be2a9b900f75b1fd">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:tableOfContents>An April Aria, by Munkittrick -- "As Good as a Play", by Scudder -- The Autocrat of the Breakfast Table, by Holmes -- The Briefless Barrister, by Saxe -- A Cable-Car Preacher, by Foss -- Cæsar's Quiet Lunch with Cicero, by Fields -- Cheer for the Consumer, by Waterman -- Comin' Home Thanksgivin', by Naylor -- A Complaint of Friends, by Hamilton -- The Coupon Bonds, by Trowbridge -- Crankidoxology, by Irwin -- Desolation, by Masson -- A Desperate Race, by Kelley -- De Stove Pipe Hole, by Drummond -- The Economical Pair, by Wells -- The Family Horse, by Cozzens -- Girl from Mercury, by Vielé -- The Grand Opera, by Baxter -- The Greco-Trojan Game, by Johnson -- How to Know the Wild Animals, by Wells -- How We Bought a Sewin' Machine and Organ, by Allen -- I Remember, I Remember, by Cary -- In a State of Sin, by Wister -- The Loafer and the Squire, by Crayon -- The Love Sonnets of a Husband, by Smiley -- Meditations of a Mariner, by Irwin -- A Modern Advantage, by Becker -- A Modern Eclogue, by Carman -- My Honey, My Love, by Harris -- Ponchus Pilut, by Riley -- Praise-God Barebones, by Cortissoz -- The Raggedy Man, by Riley -- The Shooting-Match, by Longstreet -- Sonnet of the Lovable Lass and the Plethoric Dad, by Foley -- Story of the Two Friars, by Field -- The Two Husbands, by Wells -- The Two Pedestrians, by Wells -- The Two Prisoners, by Wells -- Victory, by Masson -- The Wolf at Susan's Door, by Warner.</dcterms:tableOfContents>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2d6381daf2f64413a8e4dcfe930129b8">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>American literature -- Humor</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb1d15c745de14fe59f5056e38e5e612d">
+          <rdf:Description rdf:nodeID="N657f87f8e3d34720a0210ac3436da03c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209553</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T22:16:33.937740</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142476</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-h/18776-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N24e7c03a916e4273abeb86c12f42b1f3">
+          <rdf:Description rdf:nodeID="N533147e439564e0ebcc228462d05d70f">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429471</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4011475bc2d44ebe8b12841474bf56e9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142428</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356816</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N69e725234efb480f887e57ff50a42f25">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:16</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356812</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N734b36dcd5e1475392d199bb1aac8250">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N8d2f40fbd9d64cc0a53e96c5b260807a">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nb1e3257eecf34e0f929daeb1f9502944">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Short Stories</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-07</dcterms:issued>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">699760</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N65c557e02ac54e38aeb7e773850d8a57">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:57:57.155994</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/8044">
+        <pgterms:name>Wilder, Marshall Pinckney</pgterms:name>
+        <pgterms:alias>Wilder, Marshall P.</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:tableOfContents>An April Aria, by Munkittrick -- "As Good as a Play", by Scudder -- The Autocrat of the Breakfast Table, by Holmes -- The Briefless Barrister, by Saxe -- A Cable-Car Preacher, by Foss -- Cæsar's Quiet Lunch with Cicero, by Fields -- Cheer for the Consumer, by Waterman -- Comin' Home Thanksgivin', by Naylor -- A Complaint of Friends, by Hamilton -- The Coupon Bonds, by Trowbridge -- Crankidoxology, by Irwin -- Desolation, by Masson -- A Desperate Race, by Kelley -- De Stove Pipe Hole, by Drummond -- The Economical Pair, by Wells -- The Family Horse, by Cozzens -- Girl from Mercury, by Vielé -- The Grand Opera, by Baxter -- The Greco-Trojan Game, by Johnson -- How to Know the Wild Animals, by Wells -- How We Bought a Sewin' Machine and Organ, by Allen -- I Remember, I Remember, by Cary -- In a State of Sin, by Wister -- The Loafer and the Squire, by Crayon -- The Love Sonnets of a Husband, by Smiley -- Meditations of a Mariner, by Irwin -- A Modern Advantage, by Becker -- A Modern Eclogue, by Carman -- My Honey, My Love, by Harris -- Ponchus Pilut, by Riley -- Praise-God Barebones, by Cortissoz -- The Raggedy Man, by Riley -- The Shooting-Match, by Longstreet -- Sonnet of the Lovable Lass and the Plethoric Dad, by Foley -- Story of the Two Friars, by Field -- The Two Husbands, by Wells -- The Two Pedestrians, by Wells -- The Two Prisoners, by Wells -- Victory, by Masson -- The Wolf at Susan's Door, by Warner.</dcterms:tableOfContents>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na44f78849d8544d6969196d07d53ca7a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">822339</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:57:55.338022</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-h/18776-h.htm">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429471</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4a5e8aa65b174d9492973d42749a1f63">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</pgterms:downloads>
+    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175157</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T06:59:31.529636</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:57:53.516083</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167148</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N678c070317ba4b3189396016f6a7359f">
+          <rdf:Description rdf:nodeID="N3449b84536ff431ab48afe31c8dfb07f">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>The Wit and Humor of America, Volume IV. (of X.)</dcterms:title>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776-h.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N17b27d3e71fb4940b228efe980a19973">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N06be59aa16ba43b38981bf32032b62aa">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218757</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/18776/18776.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nab16f434ab1b47998246b07d031be4ea">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142428</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2006-07-07T12:41:18</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N888c03c0e9cc41b8b6f71a3208fa42ce">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N24920601933c44b59193a012a8382454">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PN</rdf:value>
+      <rdf:Description rdf:nodeID="N05c4da9ad06744de8f10df09076e30d8">
+        <rdf:value>American wit and humor</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nd02748e8a1e144de95d6fcebc04d5393">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nd95cc2e4a5bc4a7cb185d8c1460dd3bb">
+        <rdf:value>Humor</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/18776.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/18776"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1b367c93b26c47bcb229727d1df6e9a6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356801</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T03:57:52.554074</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
